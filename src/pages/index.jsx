@@ -2,7 +2,7 @@ import React from 'react';
 import SignIn from '../components/auth/SignIn';
 import SignUp from '../components/auth/SignUp';
 import AuthDetails from '../components/auth/AuthDetails';
-import '../Styles/App.css';
+import '../styles/App.css';
 
 function Index() {
   return (
