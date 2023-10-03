@@ -1,3 +1,4 @@
+// index.jsx
 import React from 'react';
 import SignIn from '../components/auth/SignIn';
 import SignUp from '../components/auth/SignUp';
@@ -6,10 +7,12 @@ import '../styles/App.css';
 
 function Index() {
   return (
-    <div className='App'>
-      <SignIn />
-      <SignUp />
-      <AuthDetails />
+    <div className='login-form-container'>
+      <div className='form'>
+        <SignIn />
+        <SignUp />
+        <AuthDetails />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+/* App.css */
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #858080;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    background-color: #fff;
+    padding: 50px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  input {
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  /* Style your input fields or components as needed */
+  
