@@ -11,6 +11,8 @@ import Weektabel from '../components/auth/weektabel';
 import KlachtIndienen from '../components/auth/klachtindienen';
 import Reserveren from '../components/auth/Reserveren';
 import ProblemenIndienen from '../components/auth/ProblemenIndienen';
+import SchoonmaakRooster from '../components/auth/SchoonmaakRooster';
+import Schoonmaker from './Schoonmaker';
 
 
 
@@ -24,6 +26,7 @@ function Index() {
         <SignIn />
         <SignUp />
         <AuthDetails />
+        <Schoonmaker />
         
         
         

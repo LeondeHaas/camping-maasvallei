@@ -16,8 +16,8 @@ const Header = () => {
                 <li className={`nav-item ${location.pathname === '/beheer' ? 'active' : ''}`}>
                     <Link to="/beheer">Beheer</Link>
                 </li>
-                <li className={`nav-item ${location.pathname === '/schoonmaak' ? 'active' : ''}`}>
-                    <Link to="/schoonmaak">Schoonmaak</Link>
+                <li className={`nav-item ${location.pathname === '/Schoonmaker' ? 'active' : ''}`}>
+                    <Link to="/Schoonmaker">Schoonmaak</Link>
                 </li>
                 <li className={`nav-item ${location.pathname === '/onderhoud' ? 'active' : ''}`}>
                     <Link to="/onderhoud">Onderhoud</Link>
