@@ -21,6 +21,8 @@ function Kampeerder() {
     <div className='login-form-container'>
       <Header />
       <h1>Kampeerder</h1>
+      
+      <AuthDetails />
       <KlachtIndienen />
       <Reserveren />
       <ProblemenIndienen />

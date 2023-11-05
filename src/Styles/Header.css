@@ -1,5 +1,5 @@
 .header-container {
-    background-color: #333;
+    background-color: gray;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -7,6 +7,8 @@
     top: 0;
     left: 0;
     width: 100%;
+  
+    
 }
 
 .nav-list {
@@ -86,7 +88,7 @@
 .financial-box p {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: gray;
 }
 
 .occupancy-container {
@@ -110,7 +112,7 @@
 }
 
 .occupancy-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -138,7 +140,7 @@
 }
 
 .occupancy-summary {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -163,7 +165,7 @@
 }
 
 .occupancy-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -201,7 +203,7 @@
 }
 
 .week-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -248,7 +250,7 @@
 }
 
 .klacht-form-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -258,7 +260,7 @@
 }
 
 .klacht-form-container button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
 
 .reserveren-container {
@@ -311,7 +313,7 @@
 }
 
 .reserveren-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -359,7 +361,7 @@
 }
 
 .problemen-form-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -369,7 +371,7 @@
 }
 
 .problemen-form-container button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
 
 h2
@@ -388,20 +390,24 @@ h1
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 .sign-in-form {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+   background: whitesmoke;
+   border: 1px solid #ccc;
+   height: 400px;
+   width:300px;
+   text-align: center;
+  
 }
 
 .welcome-header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 15px;
+    font-family: 'Anton', sans-serif;
+    
+
 }
 
 .login-header {
@@ -410,23 +416,196 @@ h1
 }
 
 .input-field {
-    width: 100%;
+    width: 100px;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 10px;
+   
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    height:10px;
+    background-color: rgba(128, 128, 128, 0.493);
 }
 
 .login-button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: green;
+    color: black;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
     font-weight: bold;
+    width: 150px;
+    margin-top: 50px;
 }
 
-.login-button:hover {
-    background-color: #0056b3;
-}
+
+
+.login-form-container1 {
+    background-image: url('../images/background.png'); 
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    
+    /* Andere stijlopties voor de achtergrond */
+  }
+
+
+  .p1{
+   
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    color: white;
+    margin-top: 26px;
+    
+  }
+
+
+  .button1{
+    position: absolute;
+    top: 35px;
+    right: 16px;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    color: white;
+    margin-top: 26px;
+    
+  }
+
+  .kalender {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .maand-kalender {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .kalender-dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .datum {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .werktijd {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  /* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+/* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+.agenda-kalender {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .datum {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .werktijd {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .werktijd div {
+    margin: 5px 0;
+  }
+  
+  .werktijd div:first-child {
+    font-weight: bold;
+  }
+  
+  .werktijd div:empty {
+    display: none;
+  }
+  
+  /* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+.kalender-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .agenda-kalender {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Rest van de CSS-stijl blijft hetzelfde */
+  /* In je CSS-bestand (bijv. OnderhoudsmedewerkerDashboard.css) */
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sectie {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  

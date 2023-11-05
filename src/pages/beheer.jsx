@@ -21,6 +21,8 @@ function Beheer() {
     <div className='login-form-container'>
       <Header />
       <h1>Beheer</h1>
+      
+      <AuthDetails />
       <Klachten />
       <Geld />
       <Bezetting />

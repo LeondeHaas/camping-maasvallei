@@ -11,10 +11,11 @@ import Weektabel from '../components/auth/weektabel';
 import KlachtIndienen from '../components/auth/klachtindienen';
 import Reserveren from '../components/auth/Reserveren';
 import ProblemenIndienen from '../components/auth/ProblemenIndienen';
-import SchoonmaakRooster from '../components/auth/SchoonmaakRooster';
-import Schoonmaker from './Schoonmaker';
+import RoosterOnderhoud from '../components/roosteronderhoud';
 
 import '../Styles/Header.css';
+import OnderhoudsmedewerkerDashboard from '../components/auth/OnderhoudsmedewerkerDashboard';
+
 
 
 
@@ -22,14 +23,16 @@ import '../Styles/Header.css';
 function Index() {
   return (
     
-    <div className='login-form-container1'>
+    <div className='login-form-container'>
       <Header />
       <div className='form'>
        
-        <SignIn />
-        <SignUp />
+    
         <AuthDetails />
-        <Schoonmaker />
+        <RoosterOnderhoud />
+        <OnderhoudsmedewerkerDashboard />
+
+        
         
         
         
