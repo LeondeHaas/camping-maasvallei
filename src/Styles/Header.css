@@ -392,16 +392,20 @@ h1
 }
 
 .sign-in-form {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+   background: whitesmoke;
+   border: 1px solid #ccc;
+   height: 400px;
+   width:300px;
+   text-align: center;
+  
 }
 
 .welcome-header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 15px;
+    font-family: 'Anton', sans-serif;
+    
+
 }
 
 .login-header {
@@ -410,21 +414,27 @@ h1
 }
 
 .input-field {
-    width: 100%;
+    width: 100px;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 10px;
+   
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    height:10px;
+    background-color: rgba(128, 128, 128, 0.493);
 }
 
 .login-button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: green;
+    color: black;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
     font-weight: bold;
+    width: 150px;
+    margin-top: 50px;
 }
 
 .login-button:hover {
