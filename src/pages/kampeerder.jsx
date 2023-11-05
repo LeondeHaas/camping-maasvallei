@@ -15,24 +15,20 @@ import ProblemenIndienen from '../components/auth/ProblemenIndienen';
 
 
 
-function Index() {
+function Kampeerder() {
   return (
     
     <div className='login-form-container'>
       <Header />
-      <div className='form'>
-        <SignIn />
-        <SignUp />
-        <AuthDetails />
-        
-        
-        
-      </div>
-      
+      <h1>Kampeerder</h1>
+      <KlachtIndienen />
+      <Reserveren />
+      <ProblemenIndienen />
    
     </div>
+    
     
   );
 }
 
-export default Index;
+export default Kampeerder;

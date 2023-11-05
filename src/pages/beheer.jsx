@@ -15,24 +15,20 @@ import ProblemenIndienen from '../components/auth/ProblemenIndienen';
 
 
 
-function Index() {
+function Beheer() {
   return (
     
     <div className='login-form-container'>
       <Header />
-      <div className='form'>
-        <SignIn />
-        <SignUp />
-        <AuthDetails />
-        
-        
-        
-      </div>
-      
-   
+      <h1>Beheer</h1>
+      <Klachten />
+      <Geld />
+      <Bezetting />
+      <Weektabel />
     </div>
+    
     
   );
 }
 
-export default Index;
+export default Beheer;
