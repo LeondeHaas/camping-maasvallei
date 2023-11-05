@@ -477,3 +477,135 @@ h1
     
   }
 
+  .kalender {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .maand-kalender {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .kalender-dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .datum {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .werktijd {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  /* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+/* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+.agenda-kalender {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .datum {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .werktijd {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .werktijd div {
+    margin: 5px 0;
+  }
+  
+  .werktijd div:first-child {
+    font-weight: bold;
+  }
+  
+  .werktijd div:empty {
+    display: none;
+  }
+  
+  /* In je CSS-bestand (bijv. RoosterOnderhoud.css) */
+
+.kalender-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .agenda-kalender {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .dag {
+    width: calc(100% / 7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Rest van de CSS-stijl blijft hetzelfde */
+  /* In je CSS-bestand (bijv. OnderhoudsmedewerkerDashboard.css) */
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sectie {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  

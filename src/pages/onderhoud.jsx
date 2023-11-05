@@ -11,26 +11,39 @@ import Weektabel from '../components/auth/weektabel';
 import KlachtIndienen from '../components/auth/klachtindienen';
 import Reserveren from '../components/auth/Reserveren';
 import ProblemenIndienen from '../components/auth/ProblemenIndienen';
+import RoosterOnderhoud from '../components/roosteronderhoud';
+
+import '../Styles/Header.css';
+import OnderhoudsmedewerkerDashboard from '../components/auth/OnderhoudsmedewerkerDashboard';
 
 
 
 
-function Beheer() {
+
+function Index() {
   return (
     
     <div className='login-form-container'>
       <Header />
-      <h1>Beheer</h1>
-      
-      <AuthDetails />
-      <Klachten />
-      <Geld />
-      <Bezetting />
-      <Weektabel />
-    </div>
+      <div className='form'>
+       
     
+        <AuthDetails />
+        <RoosterOnderhoud />
+        <OnderhoudsmedewerkerDashboard />
+
+        
+        
+        
+        
+      </div>
+      
+   
+   
+    </div>
     
   );
 }
 
-export default Beheer;
+
+export default Index;
