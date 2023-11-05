@@ -1,5 +1,5 @@
 .header-container {
-    background-color: #333;
+    background-color: gray;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -7,6 +7,8 @@
     top: 0;
     left: 0;
     width: 100%;
+  
+    
 }
 
 .nav-list {
@@ -86,7 +88,7 @@
 .financial-box p {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: gray;
 }
 
 .occupancy-container {
@@ -110,7 +112,7 @@
 }
 
 .occupancy-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -138,7 +140,7 @@
 }
 
 .occupancy-summary {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -163,7 +165,7 @@
 }
 
 .occupancy-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -201,7 +203,7 @@
 }
 
 .week-table th {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
 }
@@ -248,7 +250,7 @@
 }
 
 .klacht-form-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -258,7 +260,7 @@
 }
 
 .klacht-form-container button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
 
 .reserveren-container {
@@ -311,7 +313,7 @@
 }
 
 .reserveren-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -359,7 +361,7 @@
 }
 
 .problemen-form-container button {
-    background-color: #007bff;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -369,7 +371,7 @@
 }
 
 .problemen-form-container button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
 
 h2
@@ -388,7 +390,7 @@ h1
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 .sign-in-form {
@@ -437,6 +439,41 @@ h1
     margin-top: 50px;
 }
 
-.login-button:hover {
-    background-color: #0056b3;
-}
+
+
+.login-form-container1 {
+    background-image: url('../images/background.png'); 
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    
+    /* Andere stijlopties voor de achtergrond */
+  }
+
+
+  .p1{
+   
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    color: white;
+    margin-top: 26px;
+    
+  }
+
+
+  .button1{
+    position: absolute;
+    top: 35px;
+    right: 16px;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    color: white;
+    margin-top: 26px;
+    
+  }
+

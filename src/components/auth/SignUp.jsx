@@ -18,9 +18,10 @@ const SignUp = () => {
     };
 
     return (
-        <div className='sign-in-container'>
+        <div className='sign-in-container'> {/* Dezelfde CSS-klasse als de rest van de componenten */}
             <form onSubmit={signUp}>
-                <h1>Create Account</h1>
+                <h1 className='welcome-header'>Create Account</h1>
+                <h1 className='login-header'>Sign up</h1>
                 <input
                     type='text'
                     placeholder='Enter Email'

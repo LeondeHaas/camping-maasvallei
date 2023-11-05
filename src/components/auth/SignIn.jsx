@@ -2,7 +2,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import React, { useState } from 'react';
 import { auth } from '../../config/firebase';
 
-import '../../Styles/Header.css';
+import '../../Styles/Header.css'; // Mogelijk niet nodig als je de stijlen al hebt gekopieerd
 
 const SignIn = () => {
     const [email, setEmail] = useState('');

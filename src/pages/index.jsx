@@ -12,27 +12,34 @@ import KlachtIndienen from '../components/auth/klachtindienen';
 import Reserveren from '../components/auth/Reserveren';
 import ProblemenIndienen from '../components/auth/ProblemenIndienen';
 
+import '../Styles/Header.css';
+
 
 
 
 function Index() {
   return (
     
-    <div className='login-form-container'>
+    <div className='login-form-container1'>
       <Header />
       <div className='form'>
+       
         <SignIn />
         <SignUp />
         <AuthDetails />
+
+        
         
         
         
       </div>
       
    
+   
     </div>
     
   );
 }
+
 
 export default Index;
