@@ -7,6 +7,7 @@ import AuthDetails from './components/auth/AuthDetails';
 import Beheer from './pages/beheer';
 import Index from './pages/index';
 import Kampeerder from './pages/kampeerder';
+import Schoonmaker from './pages/Schoonmaker';
 import Onderhoud from './pages/onderhoud';
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<Index />} />
         <Route path='/kampeerder' element={<Kampeerder />} />
         <Route path='/beheer' element={<Beheer />} />
+        <Route path='/Schoonmaker' element={<Schoonmaker />} />
         <Route path='/onderhoud' element={<Onderhoud />} />
       </Routes>
     </Router>
